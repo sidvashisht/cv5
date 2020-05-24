@@ -1,0 +1,54 @@
+.about {
+  background-color: #ffe2ff;
+  text-align: center;
+}
+.my-name{
+  padding-top: 10%;
+  padding-bottom: 15%;
+  /* background-color: #400082; */
+  background-image: url("images/background-top.jpg");
+  color: #f7e8f6;
+  background-size: cover;
+}
+.glow{
+  font-size: 5rem;
+  font-family: 'Bad Script';
+  text-align: center;
+  color: #f7beff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #f7beff, 0 0 20px #222831, 0 0 30px #222831, 0 0 40px #222831, 0 0 50px #222831, 0 0 60px #222831, 0 0 70px #222831;
+  }
+  to {
+    text-shadow: 0 0 20px #222831, 0 0 30px #222831, 0 0 40px #222831, 0 0 50px #222831, 0 0 60px #222831, 0 0 70px #222831, 0 0 80px ;
+  }
+}
+
+.my-name h2{
+  font-size: 2.5rem;
+  font-family: 'Bad Script';
+  text-align: center;
+  font-weight: bold;
+  margin: 5% 0;
+  color: white;
+}
+.profile-photo {
+  width: 25%;
+  margin-top: 6%;
+}
+p{
+  font-family: 'Source Sans Pro';
+  text-align: left;
+  line-height: 1.7;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10%;
+  font-size: 1.3rem;
+}
+.signature {
+  width: 45%;
+}
